@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<io.jenkins.plugins.logintheme.LoginTheme plugin="login-theme@1.0">
+  <head></head>
+  <header></header>
+  <footer></footer>
+  <useDefaultTheme>true</useDefaultTheme>
+</io.jenkins.plugins.logintheme.LoginTheme>

@@ -1,0 +1,59 @@
+Started by user [8mha:////4AVThRMWo1iQMP4dbUpdhNVOlUQxBRPLLEzproNqoZA4AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZO/dLi1CL9rMRMAMrqkl2+AAAA[0mprakash
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/gitclone
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Prakashja/mvn-jfrog-setup.git
+ > git init /root/.jenkins/workspace/gitclone # timeout=10
+Fetching upstream changes from https://github.com/Prakashja/mvn-jfrog-setup.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Prakashja/mvn-jfrog-setup.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Prakashja/mvn-jfrog-setup.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Prakashja/mvn-jfrog-setup.git # timeout=10
+Fetching upstream changes from https://github.com/Prakashja/mvn-jfrog-setup.git
+ > git fetch --tags --progress https://github.com/Prakashja/mvn-jfrog-setup.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1d8691d3333231d03e6378936ff4b9c86f53d739 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1d8691d3333231d03e6378936ff4b9c86f53d739
+Commit message: "Update Jenkinsfile"
+ > git rev-list --no-walk 21ddb96c4ba4debfbfef4ed89a9bc6ee113a4dd9 # timeout=10
+No emails were triggered.
+[gitclone] $ /opt/maven/bin/mvn clean package install deploy -e sonar:sonar -Dsonar.host.url=http://34.227.16.101:9000 -Dsonar.login=8ab7997744a163c4fe75077535c363f913401191
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[8mha:////4GAsxG8t11s/rr4PbwqFnQUHPe6wyaZBmDYnaYY2jeDFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4GAsxG8t11s/rr4PbwqFnQUHPe6wyaZBmDYnaYY2jeDFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.mycompany.app:my-app:jar:1.0-SNAPSHOT
+[8mha:////4GAsxG8t11s/rr4PbwqFnQUHPe6wyaZBmDYnaYY2jeDFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 44, column 12
+[8mha:////4GAsxG8t11s/rr4PbwqFnQUHPe6wyaZBmDYnaYY2jeDFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4GAsxG8t11s/rr4PbwqFnQUHPe6wyaZBmDYnaYY2jeDFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:////4GAsxG8t11s/rr4PbwqFnQUHPe6wyaZBmDYnaYY2jeDFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4GAsxG8t11s/rr4PbwqFnQUHPe6wyaZBmDYnaYY2jeDFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:////4GAsxG8t11s/rr4PbwqFnQUHPe6wyaZBmDYnaYY2jeDFAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4HtKpWDvR78QiynQAzX6Lodcr/sJpwlcfGF0CRc4PAGnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ my-app ---
+[INFO] 
+[8mha:////4HtKpWDvR78QiynQAzX6Lodcr/sJpwlcfGF0CRc4PAGnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /root/.jenkins/workspace/gitclone/src/main/resources
+[INFO] 
+[8mha:////4HtKpWDvR78QiynQAzX6Lodcr/sJpwlcfGF0CRc4PAGnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /root/.jenkins/workspace/gitclone/target/classes
+[INFO] 
+[8mha:////4HtKpWDvR78QiynQAzX6Lodcr/sJpwlcfGF0CRc4PAGnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /root/.jenkins/workspace/gitclone/src/test/resources
+[INFO] 
+[8mha:////4HtKpWDvR78QiynQAzX6Lodcr/sJpwlcfGF0CRc4PAGnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /root/.jenkins/workspace/gitclone/target/test-classes
+[INFO] 
+[8mha:////4HtKpWDvR78QiynQAzX6Lodcr/sJpwlcfGF0CRc4PAGnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ my-app ---
+[INFO] Surefire report directory: /root/.jenkins/workspace/gitclone/target/surefire-reports

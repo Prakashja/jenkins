@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: danielbeck
+Build-Jdk: 1.8.0_121
+Extension-Name: login-theme
+Specification-Title: This plugin allows extending and overriding the d
+ efault theme used on the login and signup pages since Jenkins 2.128.
+Implementation-Title: login-theme
+Implementation-Version: 1.0
+Group-Id: io.jenkins.plugins
+Short-Name: login-theme
+Long-Name: Login Theme Plugin
+Url: https://wiki.jenkins.io/display/JENKINS/Login+Theme+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 2.128
+Jenkins-Version: 2.128
+Plugin-Developers: 
+
